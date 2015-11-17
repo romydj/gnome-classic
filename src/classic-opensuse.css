@@ -1,0 +1,44 @@
+@import url("stylesheet.css");
+
+#panel.bottom-panel {
+    border-top-width: 1px;
+    border-bottom-width: 0px;
+    height: 32px !important;
+  }
+
+  .bottom-panel .window-button > StWidget {
+    background-color: #2a2a2a !important; /*bottom panel color*/
+    /*background-gradient-direction: vertical;
+    background-gradient-end: #d0d0d0;*/
+    color: #8DCD41 !important; /*text color bottom panel*/
+    border-radius: 2px !important;
+    padding: 4px 6px 2px !important;
+    text-shadow: 0 0 transparent;
+    box-shadow: inset -1px -1px 1px rgba(0,0,0,0.5) !important;
+  }
+
+  .bottom-panel .window-button:hover > StWidget {
+    background-color: #222222 !important;
+    /*background-gradient-end: #e0e0e0;*/
+  }
+
+  .bottom-panel .window-button:active > StWidget {
+    box-shadow: inset 1px 1px 2px rgba(0,0,0,0.5) !important;
+  }
+
+  .bottom-panel .window-button.focused > StWidget {
+    background-color: #1f1f1f !important;
+    background-gradient-end: #b0b0b0;
+    box-shadow: inset 1px 1px 2px rgba(0,0,0,0.5) !important;
+  }
+
+  .bottom-panel .window-button.focused:hover > StWidget {
+    background-color: #333 !important;
+    /*background-gradient-end: #c0c0c0;*/
+  }
+
+  .bottom-panel .window-button.minimized > StWidget {
+    color: #fff !important;
+    box-shadow: inset -1px -1px 1px rgba(0,0,0,0.4) !important;
+  }
+
