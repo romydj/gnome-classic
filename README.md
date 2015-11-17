@@ -29,3 +29,11 @@ gnome-classic custom theme, dark color scheme, tested on openSUSE LEAP 42.1
 - Rollback Action
 
   When gnome crashed, just rename originial backup css from terminal
+  
+
+###Customize
+
+`/usr/share/gnome-shell/theme/gnome-classic.css` if you want to custom your own (top panel, calendar, menu, etc) you can edit this file
+
+`/usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com/classic.css` you can custom bottom panel on this file
+
